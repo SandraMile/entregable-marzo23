@@ -1,10 +1,10 @@
-function App() {
-  //Aqui deberias agregar los estados y los handlers para los inputs
+import React from 'react';
+import FormComponent from './FormComponent'; 
 
+function App() {
   return (
     <div className="App">
-      <h1>Elige un color</h1>
-      <form>{/* aqui deberias escribir tu codigo */}</form>
+      <FormComponent />
     </div>
   );
 }
